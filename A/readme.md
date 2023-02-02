@@ -14,7 +14,7 @@
 
 <br><br>
 
-## 1)  Vaanya and Fence(https://shorturl.ac/79p1y)
+## 1)  [Vaanya and Fence](https://shorturl.ac/79p1y)
 
 ### Code
 
@@ -44,7 +44,7 @@ int main()
 
 <br><br>
 
-## 2)  Anton and Danik(https://shorturl.ac/79p20)
+## 2)  [Anton and Danik](https://shorturl.ac/79p20)
 
 ### Code
 
@@ -92,7 +92,7 @@ int main()
 
 <br><br>
 
-## 3)  Bear and Big Brother(https://shorturl.ac/79p22)
+## 3)  [Bear and Big Brother](https://shorturl.ac/79p22)
 
 ### Code
 
@@ -121,7 +121,7 @@ int main()
 
 <br><br>
 
-## 4)  Team(https://shorturl.ac/79p24)
+## 4)  [Team](https://shorturl.ac/79p24)
 
 ### Code
 
@@ -150,7 +150,7 @@ int main(){
 
 <br><br>
 
-## 5)  Beautiful Matrix(https://shorturl.ac/79p28)
+## 5)  [Beautiful Matrix](https://shorturl.ac/79p28)
 
 ### Code
 
