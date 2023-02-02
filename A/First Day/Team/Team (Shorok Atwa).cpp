@@ -20,5 +20,5 @@ int main()
     }
     // print the answer
     cout << cnt;
-    return0;
+    return 0;
 }
