@@ -11,8 +11,9 @@
     1. Follow the following guidelines:
         1. open the folder of problems coloum first  
         1. then Open the folder of the Problem Name 
-        1. Make a file of your solution and follow this pattern `name of problem (your name).file extension`
-            - for example `Vanya_and_Fence(EmanElsayed).cpp`
+        1. Make a file of your solution after you get accepted in codeforcess and follow this pattern `name of problem (your name).file extension`
+            - for example `Vanya and Fence (Eman Elsayed).cpp`
+            - Take care this name doesn't comile in IDE so after you get accepted put your solution in file that has this pattern
         1. Put this line as a comment on the top of your file: ``// Author: <your name>``
         1. Try to write comments to explain your solution
     1. Create a pull request here after that
