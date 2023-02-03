@@ -12,7 +12,7 @@
         1. open the folder of problems coloum first  
         1. then Open the folder of the Problem Name 
         1. Make a file of your solution and follow this pattern `name of problem (your name).file extension`
-            - for example `Vanya and Fence (Eman Elsayed).cpp`
+            - for example `Vanya_and_Fence(EmanElsayed).cpp`
         1. Put this line as a comment on the top of your file: ``// Author: <your name>``
         1. Try to write comments to explain your solution
     1. Create a pull request here after that
@@ -21,5 +21,5 @@
 
 
 ## Sheet Dr Mustafa saad 
-- [Sheet](https://docs.google.com/spreadsheets/d/1-n9Fnvhsnvsqh-IerE_yyIshw5RUNer_7EjwF_GW-TA/edit#gid=0)
+- [Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=1160016643)
 <hr>
