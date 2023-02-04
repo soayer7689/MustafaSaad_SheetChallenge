@@ -7,7 +7,7 @@
 1. [Gravity Flip](http://codeforces.com/contest/405/problem/A)
 2. [Petya and String](http://codeforces.com/contest/112/problem/A)
 3. [Boy or Girl](http://codeforces.com/contest/236/problem/A)
-4. [Work](http://codeforces.com/contest/59/problem/A)
+4. [Word](http://codeforces.com/contest/59/problem/A)
 5. [Magntes](http://codeforces.com/contest/344/problem/A)
 
 <hr>
