@@ -26,17 +26,14 @@ void M() {
 
 int main() {
     M();
-    int n;          cin>>n;
-    string s;      cin>>s;
-    ll d=0,a=0;
-    for(int i=0;i<n;i++){
-        if(s[i]=='A')  a++;
-        else d++;
-    }
-    if(a>d)   cout<<"Anton\n";
-    else if(d>a)   cout<<"Danik\n";
-    else cout<<"Friendship\n";
 
+    int n,h;                            cin>>n>>h;
+    vector<ll>v(n);
+    cin(v);
+    ll c=0;
+    for(int i=0;i<n;i++)      c+=(v[i]>h ? 2 : 1);
+
+    cout<<c<<"\n";
 
 
 }

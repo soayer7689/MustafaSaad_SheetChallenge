@@ -26,16 +26,15 @@ void M() {
 
 int main() {
     M();
-    int n;          cin>>n;
-    string s;      cin>>s;
-    ll d=0,a=0;
-    for(int i=0;i<n;i++){
-        if(s[i]=='A')  a++;
-        else d++;
+    ll a,b;      cin>>a>>b;
+    ll c=0;
+    while(a<=b){
+        a*=3;
+        b*=2;
+        c++;
+
     }
-    if(a>d)   cout<<"Anton\n";
-    else if(d>a)   cout<<"Danik\n";
-    else cout<<"Friendship\n";
+    cout<<c<<"\n";
 
 
 

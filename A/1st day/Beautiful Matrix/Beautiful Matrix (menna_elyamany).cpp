@@ -26,16 +26,19 @@ void M() {
 
 int main() {
     M();
-    int n;          cin>>n;
-    string s;      cin>>s;
-    ll d=0,a=0;
-    for(int i=0;i<n;i++){
-        if(s[i]=='A')  a++;
-        else d++;
+    int arr[6][6];
+    int r=0,c=0;
+
+    for(int i=0;i<5;i++){
+        for(int j=0;j<5;j++){
+            cin>>arr[i][j];
+            if(arr[i][j]) r=i,c=j;
+
+        }
+
     }
-    if(a>d)   cout<<"Anton\n";
-    else if(d>a)   cout<<"Danik\n";
-    else cout<<"Friendship\n";
+    ll res=abs(r-2)+abs(c-2);
+    cout<<res;
 
 
 
