@@ -14,10 +14,9 @@
 
 <br><br>
 
-## 1)  [Gravity Flip](http://codeforces.com/contest/405/problem/A)
+## 1) [Gravity Flip](http://codeforces.com/contest/405/problem/A)
 
 ### Code
-
 
 ```cpp
 int main()
@@ -43,7 +42,7 @@ int main()
 
 <br><br>
 
-## 2)  [Petya and String](http://codeforces.com/contest/112/problem/A)
+## 2) [Petya and String](http://codeforces.com/contest/112/problem/A)
 
 ### Code
 
@@ -101,7 +100,8 @@ int main()
 
 <br><br>
 
-## 4)  [Work](http://codeforces.com/contest/59/problem/A)
+## 4) [Word](http://codeforces.com/contest/59/problem/A)
+
 ### Code
 
 ```cpp
@@ -110,7 +110,7 @@ int main(){
     string s;
     cin >> s;
     int lower = 0, upper = 0; //  to count the number of lower and upper case letters
-    for(int i = 0; i < s.size(); i++){ 
+    for(int i = 0; i < s.size(); i++){
         if(islower(s[i])){  // check if the letter is lower case function built in c++
             lower++;
         }
@@ -132,7 +132,7 @@ int main(){
         }
     }
     // print the string
-    cout << s; 
+    cout << s;
 }
 
 ```
@@ -141,7 +141,7 @@ int main(){
 
 <br><br>
 
-## 5)  [Magntes](http://codeforces.com/contest/344/problem/A)
+## 5) [Magntes](http://codeforces.com/contest/344/problem/A)
 
 ### Code
 
@@ -154,7 +154,7 @@ int main(){
         cin >> v[i];
     }
     int cnt = 1;
-    // count the number of groups of magnets that attract each other 
+    // count the number of groups of magnets that attract each other
     for (int i = 0;i<n-1;i++){
         // if the current magnet is different from the next magnet
         if(v[i] != v[i+1]){
@@ -165,3 +165,4 @@ int main(){
     // print answer
     cout << cnt;
 }
+```
