@@ -94,27 +94,20 @@ int main()
 
 int main()
 {
-    int n;
-    cin >> n; // get the length of the vector
-    vector<int> grid(n);
-    for (auto &i : grid) // get the vector
+   int n;
+    cin >> n;
+    vector<int> vec(n);
+    for (auto &i : vec)
         cin >> i;
-    int police = 0, res = 0;
+    long long ans = 0, sum = 0;
     for (int i = 0; i < n; i++)
     {
-        if (grid[i] >= 0) // if the element greater than 0 the increament value of the police by the value of the element
-            police += grid[i];
-        else
-        {
-            if (police > 0) // other wise if the police greater than zero then decrement the value of the police
-            {
-                police--;
-            }
-            else
-                res++;
-        }
+        sum += vec[i];           // sum all the elements
+        if (sum < 0)             // if the sum is negative then we will add the absolute value of the sum to the answer
+            ans -= sum, sum = 0; // and update the sum to 0
     }
-    cout << res << "\n"; // output the value of the res
+    // print the answer
+    cout << ans << endl;
 }
 ```
 
@@ -130,23 +123,19 @@ int main()
 
 int main()
 {
-    vector<int> grid;
-    for (int i = 0; i < 4; i++)
+    vector<int> vec(4); // create a vector of size 4
+    for (auto &i : vec)
+        cin >> i;
+    string str;
+    cin >> str;
+    int sum = 0;
+    for (int i = 0; i < str.size(); i++)
     {
-        int x;
-        cin >> x;
-        grid.push_back(x);
+        char ch = str[i];     // get the character from the string and convert it to integer to get the index of the vector
+        sum += vec[ch - '1']; // add the value of the vector at the index of the character to the sum
     }
-    string s;
-    cin >> s;
-    int n = s.size(), res = 0;
-    for (int i = 0; i < n; i++)
-    {
-        int x = s[i] - '0';
-        x--;
-        res += grid[x];
-    }
-    cout << res;
+    // print the sum
+    cout << sum << "\n";
 }
 ```
 
@@ -162,17 +151,16 @@ int main()
 int main()
 {
 
-    string s;
-    cin >> s;
-    int n = s.size(), res = 0;
-    int x = s[0] - 'a', y = 26 - x;
-    res += min(x, y);
-    for (int i = 0; i < n - 1; i++)
+    string str;
+    cin >> str;
+    // the answer is the minimum between the distance between the first letter and 'a' and 26 - the distance between the first letter and 'a'
+    int ans = min(abs(str[0] - 'a'), 26 - abs(str[0] - 'a'));
+    // loop on the string and compare each two adjacent letters and add the minimum between the distance between them and 26 - the distance between them to the answer
+    for (int i = 0; i < str.size() - 1; i++)
     {
-        x = abs(s[i] - s[i + 1]), y = 26 - x;
-
-        res += min(x, y);
+        ans += min(abs(str[i] - str[i + 1]), 26 - abs(str[i] - str[i + 1]));
     }
-    cout << res;
+    // print the answer
+    cout << ans << endl;
 }
 ```

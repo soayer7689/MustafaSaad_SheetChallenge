@@ -49,15 +49,20 @@ int main()
 ```cpp
 int main()
 {
-    string a, b;
-    cin >> a >> b;
-    // transform the string a to lowercase Because The letters' case does not matter
-    transform(a.begin(), a.end(), a.begin(), ::tolower);
-    // and transform the string b to lowercase
-    transform(b.begin(), b.end(), b.begin(), ::tolower);
-    // if a < b print -1 and a > b print 1 and a = b print 0 -> ternary operator
-    cout << (a < b ? "-1" : a > b ? "1"
-                                  : "0");
+     string s , x;
+    cin>>s>>x; // get first and second string
+    //make string s lower case to compare it by s string
+    for(int i = 0 ; i < s.size() ; i++)
+    {
+        s[i] = tolower(s[i]);
+    }
+    //make string x lower case to compare it by x string
+    for(int i = 0 ; i < x.size() ; i++)
+    {
+        x[i] = tolower(x[i]);
+    }
+    //compare function get the comparasion betweent two string and show if two string are equel , greater than and less than
+    cout<<s.compare(x)<<"\n";
 }
 ```
 
