@@ -20,11 +20,6 @@
 ### Code
 
 ```cpp
-// Author : Shorok Atwa
-#include <bits/stdc++.h>
-
-using namespace std;
-
 int main()
 {
     int n,cnt = 0; 
@@ -51,11 +46,6 @@ int main()
 ### Code
 
 ```cpp
-// Author : Shorok Atwa
-#include <bits/stdc++.h>
-
-using namespace std;
-
 int main()
 {
     int k, r, ans = 1, total;
@@ -80,12 +70,6 @@ int main()
 ### Code
 
 ```cpp
-
-// Author : Shorok Atwa
-#include <bits/stdc++.h>
-
-using namespace std;
-
 int main()
 {
     string s1, s2;
@@ -110,12 +94,6 @@ int main()
 ### Code
 
 ```cpp
-
-// Author : Shorok Atwa
-#include <bits/stdc++.h>
-
-using namespace std;
-
 int main()
 {
     vector<int> v(4);
@@ -139,11 +117,6 @@ int main()
 ### Code
 
 ```cpp
-// Author : Shorok Atwa
-#include <bits/stdc++.h>
-
-using namespace std;
-
 int main()
 {
     int a, b;
